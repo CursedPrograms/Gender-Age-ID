@@ -13,7 +13,9 @@
 <div align="center">
    <img alt="OpenCV" src="https://img.shields.io/badge/opencv-%23323330.svg?&style=for-the-badge&logo=opencv&logoColor=white"/>
 </div>
+
 [Gender-Age-ID Demo Images](https://github.com/CursedPrograms/Gender-Age-ID/tree/main/demo_images)
+
 # Gender-Age-ID
 
 This Python script utilizes the DeepFace library along with OpenCV to extract gender information from input images. The gender prediction results are printed, but the output images are currently identical to the input images.
