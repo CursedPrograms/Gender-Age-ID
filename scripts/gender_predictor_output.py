@@ -31,10 +31,14 @@ def extract_gender(input_image_path, output_directory):
     except Exception as e:
         print(f"Error: {e}")
 
+
 if __name__ == "__main__":
-    # Specify the paths for input and output images
-    input_directory = "../input/"
-    output_directory = "../output/"
+    # Get the directory of the current script
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+
+    # Specify the paths for input and output images relative to the script's location
+    input_directory = os.path.join(script_directory, '../input/')
+    output_directory = os.path.join(script_directory, '../output/')
 
     # Get a list of all image files in the input directory
     image_files = [f for f in os.listdir(input_directory) if os.path.isfile(os.path.join(input_directory, f))]
