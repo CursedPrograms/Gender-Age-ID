@@ -18,6 +18,11 @@
 
 This Python script utilizes the DeepFace library along with OpenCV to extract gender information from input images. The gender prediction results are printed, but the output images are currently identical to the input images.
 
+You can install the required Python packages using pip:
+```bash
+pip install -r requirements.txt
+```
+
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
         alt="CursedEntertainment Logo">
