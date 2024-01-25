@@ -20,9 +20,6 @@ def extract_gender(input_image_path, output_directory):
         font = ImageFont.load_default()
         position = (10, 10)  # Top-left corner
 
-        # Write gender information on the image
-        draw.text(position, f"Gender: {gender} - {gender_stats[gender]:.2f}%", font=font, fill=(255, 255, 255))
-
         # Create the output directory if it doesn't exist
         os.makedirs(output_directory, exist_ok=True)
 
