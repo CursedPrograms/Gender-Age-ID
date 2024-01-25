@@ -14,7 +14,10 @@
    <img alt="OpenCV" src="https://img.shields.io/badge/opencv-%23323330.svg?&style=for-the-badge&logo=opencv&logoColor=white"/>
 </div>
 
-[Age-Gender Demo Image](https://github.com/CursedPrograms/Gender-Age-ID/blob/main/demo_images/age-gender-demo.png)
+<a target="_blank">
+    <img src="https://github.com/CursedPrograms/Gender-Age-ID/blob/main/demo_images/age-gender-demo.png"
+        alt="Age-Gender Demo Image">
+</a>
 
 # Gender-Age-ID
 
