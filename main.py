@@ -12,12 +12,12 @@ def main():
     },
     "2": {
         "name": "Run 'Gender Predictor'",
-        "description": "This script predicts gender.",
+        "description": "This script predicts gender with image output.",
         "file_name": "scripts/gender_predictor_output.py"
     },
     "3": {
-        "name": "Run 'Improved Gender Predictor'",
-        "description": "An enhanced version of the gender predictor.",
+        "name": "Run 'Gender Predictor'",
+        "description": "This script predicts gender.",
         "file_name": "scripts/gender_predictor.py"
     },
     "00": {
