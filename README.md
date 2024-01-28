@@ -19,8 +19,10 @@ You can install the required Python packages using pip:
 ```bash
 pip install -r requirements.txt
 ```
-[Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
-[GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
+- [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
+- [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
+- [Cursed GPT Repository](https://github.com/CursedPrograms/Cursed-GPT)
+- [Image-Generator Repository](https://github.com/CursedPrograms/Image-Generator)
 
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
