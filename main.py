@@ -22,7 +22,7 @@ def main():
     },
     "4": {
         "name": "Run 'gender-age-predictor-feed.py'",
-        "description": "This script predicts gender from webcam feed.",
+        "description": "This script predicts gender from a webcam feed.",
         "file_name": "scripts/gender-age-predictor-feed.py"
     },
     "00": {
