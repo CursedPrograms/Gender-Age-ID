@@ -13,7 +13,7 @@
         alt="Age-Gender Demo Image">
 </a>
 
-This Python script utilizes the DeepFace library along with OpenCV to extract gender information from input images. The gender and age prediction results are printed.
+This Python project utilizes the DeepFace library along with OpenCV to extract gender information from input images and webcam feeds. The gender and age prediction results are printed.
 
 You can install the required Python packages using pip:
 ```bash
