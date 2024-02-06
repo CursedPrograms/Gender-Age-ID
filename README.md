@@ -49,6 +49,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+To make the setup script executable, run the following command in your terminal:
+
+```bash
+chmod +x setup.sh
+```
+
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
 - [Cursed GPT Repository](https://github.com/CursedPrograms/Cursed-GPT)
