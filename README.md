@@ -15,10 +15,40 @@
 
 This Python project utilizes the DeepFace library along with OpenCV to extract gender information from input images and webcam feeds. The gender and age prediction results are printed.
 
-You can install the required Python packages using pip:
+## Scripts:
+
+```bash
+main.py
+```
+
+```bash
+gender-age-predictor-feed.py
+```
+
+```bash
+gender-age-predictor-output.py
+```
+
+```bash
+gender-predictor-output.py
+```
+
+```bash
+gender-predictor.py
+```
+
+```bash
+install-dependencies.py
+```
+
+## How to Run:
 ```bash
 pip install -r requirements.txt
 ```
+```bash
+python main.py
+```
+
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
 - [Cursed GPT Repository](https://github.com/CursedPrograms/Cursed-GPT)
