@@ -2,10 +2,6 @@ import cv2
 from deepface import DeepFace
 import numpy as np
 
-import cv2
-from deepface import DeepFace
-import numpy as np
-
 def extract_gender_and_age(frame, face_cascade):
     try:
         # Convert the frame to RGB (required by DeepFace)
