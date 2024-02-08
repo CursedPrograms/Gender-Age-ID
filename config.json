@@ -7,7 +7,8 @@
         "DependenciesScript": "scripts/install-dependencies.py"
       },
       "Scripts": {
-
+        "MainScript": "main.py",
+        "DependenciesScript": "scripts/install-dependencies.py"
       }
     }
   }
