@@ -1,0 +1,13 @@
+{
+    "Config": {
+      "AppName": "Gender Age ID",
+      "Description": "",
+      "ProjectStructure": {
+        "MainScript": "main.py",
+        "DependenciesScript": "scripts/install-dependencies.py"
+      },
+      "Scripts": {
+
+      }
+    }
+  }
