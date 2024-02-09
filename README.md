@@ -44,6 +44,7 @@ chmod +x setup.sh
 deepface==0.0.81
 opencv-python==4.8.1.78
 Pillow==8.3.2
+flask==3.0.0
 ```
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
