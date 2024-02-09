@@ -1,26 +1,32 @@
 from deepface import DeepFace
-import cv2
-import shutil
+from PIL import Image, ImageDraw, ImageFont
 import os
 
-def extract_gender(input_image_path, output_image_path):
+def extract_gender(input_image_path, output_directory):
     try:
-        # Load the input image
-        input_img = cv2.imread(input_image_path)
+        # Load the input image using Pillow
+        input_img = Image.open(input_image_path)
 
-        if input_img is None:
-            raise ValueError(f"Unable to read the image at path: {input_image_path}")
-
-        # Create a copy of the input image
-        output_img = input_img.copy()
-        
         # Extract gender prediction
-        result = DeepFace.analyze(input_image_path, actions=['gender'], enforce_detection=False)        
-        gender = result[0]['gender']
-        print("Predicted Gender:", gender)
+        result = DeepFace.analyze(input_image_path, actions=['gender'], enforce_detection=False)
+        gender_stats = result[0]['gender']
+        print("Predicted Gender:", gender_stats)
 
-        # Save the output image
-        cv2.imwrite(output_image_path, output_img)
+        # Select the dominant gender label
+        gender = max(gender_stats, key=gender_stats.get)
+
+        # Create a drawing object
+        draw = ImageDraw.Draw(input_img)
+        font = ImageFont.load_default()
+        position = (10, 10)  # Top-left corner
+
+        # Create the output directory if it doesn't exist
+        os.makedirs(output_directory, exist_ok=True)
+
+        # Save the output image as JPEG with a filename based on predicted gender
+        output_filename = f"{gender.lower()}.jpg"
+        output_path = os.path.join(output_directory, output_filename)
+        input_img.save(output_path, format='JPEG')
 
     except Exception as e:
         print(f"Error: {e}")
@@ -40,8 +46,7 @@ if __name__ == "__main__":
     # Process each image file in the input directory
     for image_file in image_files:
         input_path = os.path.join(input_directory, image_file)
-        output_path = os.path.join(output_directory, image_file)
 
-        extract_gender(input_path, output_path)
+        extract_gender(input_path, output_directory)
 
-    print("Gender extraction complete. Output saved to", output_directory)
+    print("Gender extraction complete. Output saved as JPEG to", output_directory)

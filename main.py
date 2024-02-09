@@ -5,33 +5,24 @@ import json
 def main():
     with open('config.json') as json_file:
         config_data = json.load(json_file)
-
-    # Get the project name from the JSON data
     app_name = config_data.get('Config', {}).get('AppName', 'default_app')
-
-    # Print the actual app name value
     print(app_name)
 
     scripts = {
     "1": {
-        "name": "Run 'gender_age_predictor_output.py'",
-        "description": "This script predicts gender and age.",
-        "file_name": "scripts/gender_age_predictor_output.py"
+        "name": "Run 'gender_age_predictor.py'",
+        "description": "Predicts gender and age.",
+        "file_name": "scripts/gender_age_predictor.py"
     },
     "2": {
-        "name": "Run 'gender_predictor_output.py'",
-        "description": "This script predicts gender with image output.",
-        "file_name": "scripts/gender_predictor_output.py"
-    },
-    "3": {
         "name": "Run 'gender_predictor.py'",
-        "description": "This script predicts gender.",
+        "description": "Predicts gender.",
         "file_name": "scripts/gender_predictor.py"
     },
-    "4": {
-        "name": "Run 'gender_age_predictor_feed.py'",
-        "description": "This script predicts gender from a webcam feed.",
-        "file_name": "scripts/gender_age_predictor_feed.py"
+    "3": {
+        "name": "Run 'gender_age_predictor_webcam.py'",
+        "description": "Predicts gender from a webcam feed.",
+        "file_name": "scripts/gender_age_predictor_webcam.py"
     },
     "00": {
         "name": "Run 'install_dependencies.py'",

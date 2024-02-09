@@ -17,29 +17,14 @@ This Python project utilizes the DeepFace library along with OpenCV to extract g
 
 ## Scripts:
 
-```bash
-main.py
-```
+- **main.py:** The selection menu for Gender-Age-ID
 
-```bash
-gender-age-predictor-feed.py
-```
+### /scripts/
 
-```bash
-gender-age-predictor-output.py
-```
-
-```bash
-gender-predictor-output.py
-```
-
-```bash
-gender-predictor.py
-```
-
-```bash
-install-dependencies.py
-```
+- **gender_predictor.py:** Predicts gender from an input
+- **gender_age_predictor.py:** Predicts gender and age from an input
+- **gender_age_predictor_webcam.py:** Predicts gender and age from a webcam feed
+- **install_dependencies.py:** Install dependencies
 
 ## How to Run:
 ```bash
