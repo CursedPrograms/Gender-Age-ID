@@ -4,6 +4,7 @@
 
 <div align="center">
    <img alt="OpenCV" src="https://img.shields.io/badge/opencv-%23323330.svg?&style=for-the-badge&logo=opencv&logoColor=white"/>
+     <img alt="Flask" src="https://img.shields.io/badge/flask%20-%23323330.svg?&style=for-the-badge&logo=flaks&logoColor=white"/>
 </div>
 
 # Gender-Age-ID
