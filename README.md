@@ -33,13 +33,18 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
 To make the setup script executable, run the following command in your terminal:
 
 ```bash
 chmod +x setup.sh
 ```
+## Requirements
 
+```bash
+deepface==0.0.81
+opencv-python==4.8.1.78
+Pillow==8.3.2
+```
 - [GloriosaAI Repository](https://github.com/CursedPrograms/GloriosaAI)
 - [Detect-Face Repository](https://github.com/CursedPrograms/Detect-Face)
 - [Cursed GPT Repository](https://github.com/CursedPrograms/Cursed-GPT)
