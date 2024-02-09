@@ -1,6 +1,7 @@
 from deepface import DeepFace
 from PIL import Image, ImageDraw, ImageFont
 import os
+import json
 
 def extract_gender_and_age(input_image_path, output_directory):
     try:
@@ -43,9 +44,13 @@ if __name__ == "__main__":
     # Get the directory of the current script
     script_directory = os.path.dirname(os.path.abspath(__file__))
 
-    # Specify the paths for input and output images relative to the script's location
-    input_directory = os.path.join(script_directory, '../input/')
-    output_directory = os.path.join(script_directory, '../output/')
+    # Load settings from the JSON file
+    with open("settings.json", "r") as file:
+        settings = json.load(file)
+
+    # Specify the paths for input and output directories based on the loaded settings
+    input_directory = os.path.join(script_directory, settings["directories"]["input"])
+    output_directory = os.path.join(script_directory, settings["directories"]["output"])
 
     # Get a list of all image files in the input directory
     image_files = [f for f in os.listdir(input_directory) if os.path.isfile(os.path.join(input_directory, f))]

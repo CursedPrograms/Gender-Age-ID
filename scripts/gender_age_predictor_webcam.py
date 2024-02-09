@@ -1,6 +1,7 @@
 import cv2
 from deepface import DeepFace
 import numpy as np
+import json
 
 def extract_gender_and_age(frame, face_cascade):
     try:

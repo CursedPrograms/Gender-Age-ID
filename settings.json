@@ -1,0 +1,6 @@
+{
+    "directories": {
+        "input": "../input/",
+        "output": "../output/"
+    }
+}
