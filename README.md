@@ -10,7 +10,7 @@
 # Gender-Age-ID
 
 <a target="_blank">
-    <img src="https://github.com/CursedPrograms/Gender-Age-ID/blob/main/demo_images/age-gender-demo.png"
+    <img src="/demo_images/cover.png"
         alt="Age-Gender Demo Image">
 </a>
 
@@ -27,6 +27,11 @@ This Python project utilizes the DeepFace library along with OpenCV to extract g
 - **gender_age_predictor.py:** Predicts gender and age from an input
 - **gender_age_predictor_webcam.py:** Predicts gender and age from a webcam feed
 - **install_dependencies.py:** Install dependencies
+
+<a target="_blank">
+    <img src="https://github.com/CursedPrograms/Gender-Age-ID/blob/main/demo_images/age-gender-demo.png"
+        alt="Age-Gender Demo Image">
+</a>
 
 ## How to Run:
 ```bash
