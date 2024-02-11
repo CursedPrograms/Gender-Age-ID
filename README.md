@@ -10,7 +10,7 @@
 # Gender-Age-ID
 
 <div align="center">
-<a target="_blank">
+<a href="https://github.com/CursedPrograms/Gender-Age-ID" target="_blank">
     <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/cover.png"
         alt="Age-Gender Demo Image">
 </a>
@@ -31,7 +31,7 @@ This Python project utilizes the DeepFace library along with OpenCV to extract g
 - **install_dependencies.py:** Install dependencies
 
 <div align="center">
-<a target="_blank">
+<a  href="https://github.com/CursedPrograms/Gender-Age-ID" target="_blank">
     <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/age-gender-demo.png"
         alt="Age-Gender Demo Image">
 </a>
