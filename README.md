@@ -11,7 +11,7 @@
 
 <div align="center">
 <a target="_blank">
-    <img src="/demo_images/cover.png"
+    <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/cover.png"
         alt="Age-Gender Demo Image">
 </a>
 </div>
@@ -32,7 +32,7 @@ This Python project utilizes the DeepFace library along with OpenCV to extract g
 
 <div align="center">
 <a target="_blank">
-    <img src="https://github.com/CursedPrograms/Gender-Age-ID/blob/main/demo_images/age-gender-demo.png"
+    <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/age-gender-demo.png"
         alt="Age-Gender Demo Image">
 </a>
 </div>
