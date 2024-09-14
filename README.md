@@ -64,7 +64,7 @@ flask==3.0.0
 
 <br>
 <div align="center">
-© Cursed Entertainment 2024
+Cursed Entertainment 2024
   </div>
 <br>
 
