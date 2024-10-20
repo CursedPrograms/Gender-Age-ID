@@ -32,6 +32,13 @@
 <br>
 <div align="center">
 <a href="https://cursedprograms.github.io/gender-age-id-pr/" target="_blank">
+    <img src="https://github.com/CursedPrograms/gender-age-id-pr/raw/main/gender-age-id-qr.png"
+        alt="Age-Gender Demo Image">
+</a>
+</div>
+<br>
+<div align="center">
+<a href="https://cursedprograms.github.io/gender-age-id-pr/" target="_blank">
     <img src="https://github.com/CursedPrograms/Gender-Age-ID/raw/main/demo_images/cover.png"
         alt="Age-Gender Demo Image">
 </a>
