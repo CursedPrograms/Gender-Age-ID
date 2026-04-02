@@ -49,6 +49,13 @@ This Python project utilizes the DeepFace library along with OpenCV to extract g
 
 <br>
 
+### 2. Virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 ## Scripts:
 
 - **main.py:** The selection menu for Gender-Age-ID
