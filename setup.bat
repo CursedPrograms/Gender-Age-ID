@@ -1,3 +1,3 @@
 @echo off
-python -m venv psdenv
-cmd /k ".\psdenv\Scripts\activate & python main.py"
+python -m venv venv
+cmd /k ".\venv\Scripts\activate & python main.py"

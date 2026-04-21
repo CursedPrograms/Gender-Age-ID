@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VENV_DIR="psdenv"
+VENV_DIR="venv"
 
 # Check if the virtual environment directory exists
 if [ ! -d "$VENV_DIR" ]; then

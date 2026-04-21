@@ -1,6 +1,6 @@
 # Create a Python virtual environment
-python -m venv psdenv
+python -m venv venv
 
 # Activate the virtual environment and run the Python script
-& ".\psdenv\Scripts\Activate.ps1"
+& ".\venv\Scripts\Activate.ps1"
 python main.py

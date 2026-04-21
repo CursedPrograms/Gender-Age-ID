@@ -10,19 +10,19 @@ def main():
 
     scripts = {
     "1": {
-        "name": "Run 'gender_age_predictor.py'",
-        "description": "Predicts gender and age.",
-        "file_name": "scripts/gender_age_predictor.py"
+        "name": "Run 'gender_age_detection.py'",
+        "description": "Detects gender and age.",
+        "file_name": "scripts/gender_age_detection.py"
     },
     "2": {
-        "name": "Run 'gender_predictor.py'",
-        "description": "Predicts gender.",
-        "file_name": "scripts/gender_predictor.py"
+        "name": "Run 'gender_detection.py'",
+        "description": "Detects gender.",
+        "file_name": "scripts/gender_detection.py"
     },
     "3": {
-        "name": "Run 'gender_age_predictor_webcam.py'",
-        "description": "Predicts gender from a webcam feed.",
-        "file_name": "scripts/gender_age_predictor_webcam.py"
+        "name": "Run 'gender_age_detection_webcam.py'",
+        "description": "Detects gender from a webcam feed.",
+        "file_name": "scripts/gender_age_detection_webcam.py"
     },
     "00": {
         "name": "Run 'install_dependencies.py'",

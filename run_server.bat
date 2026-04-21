@@ -1,6 +1,6 @@
 @echo off
 
-set "VENV_DIR=psdenv"
+set "VENV_DIR=venv"
 
 rem 
 if not exist "%VENV_DIR%" (
